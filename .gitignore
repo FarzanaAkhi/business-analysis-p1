@@ -1,0 +1,46 @@
+# Ignore everything by default
+*
+!.gitignore
+!src/
+
+# Inside src, ignore Python cache files
+src/__pycache__/
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache/compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# Data (raw, large, or private)
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# Logs & cache
+*.log
+logs/
+.cache/
+dist/
+build/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+
+# Reports (large files)
+reports/*.html
+reports/*.pdf
+reports/figures/
