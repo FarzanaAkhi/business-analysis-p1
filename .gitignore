@@ -1,33 +1,33 @@
-# Ignore everything by default
+#ignore everything by default
 *
 !.gitignore
 !src/
 
-# Inside src, ignore Python cache files
+#inside src, ignore Python cache files
 src/__pycache__/
 
-# Virtual environment
+#virtual environment
 .venv/
 venv/
 
-# Python cache/compiled files
+#python cache/compiled files
 __pycache__/
 *.py[cod]
 *.so
 *.egg-info/
 .eggs/
 
-# Jupyter
+#jupyter
 .ipynb_checkpoints/
 *.ipynb_convert/
 
-# Data (raw, large, or private)
+#datasets (raw, large, or private)
 data/raw/
 data/interim/
 data/processed/
 data/external/
 
-# Logs & cache
+#logs & cache
 *.log
 logs/
 .cache/
@@ -40,7 +40,7 @@ Thumbs.db
 .vscode/*
 !.vscode/settings.json
 
-# Reports (large files)
+#reports (large files)
 reports/*.html
 reports/*.pdf
 reports/figures/
