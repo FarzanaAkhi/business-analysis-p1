@@ -72,6 +72,11 @@ mean_rs = data.loc[data.Team == "ARI"].groupby("Year")["RS"].mean()
 max_mean_year = mean_rs.idxmax()
 print("Year:", max_mean_year, "Mean RS:", mean_rs[max_mean_year])
 
+#Mean RA
+
+data.RA.mean()
+data.loc[data.Team == "CHC"].RA.mean()
+data.loc[(data.Team == "CHC") & (data.Year <= 2007)].RA.mean()
 
 
 
