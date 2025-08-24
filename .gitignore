@@ -3,6 +3,7 @@
 !.gitignore
 !src/
 !notebooks/
+!notebooks/**
 
 #inside src, ignore Python cache files
 src/__pycache__/
