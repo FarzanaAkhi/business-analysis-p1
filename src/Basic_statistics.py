@@ -11,37 +11,7 @@ expr = Sum(x[i], (i, 1, n)) / n
 
 print(expr)
 
-'''#The variables are as follows:
 
-Team
-
-League
-
-Year
-
-Runs Scored (RS)
-
-Runs Allowed (RA)
-
-Wins (W)
-
-On-Base Percentage (OBP)
-
-Slugging Percentage (SLG)
-
-Batting Average (BA)
-
-Playoffs (binary)
-
-RankSeason
-
-RankPlayoffs
-
-Games Played (G)
-
-Opponent On-Base Percentage (OOBP)
-
-Opponent Slugging Percentage (OSLG)'''
 
 import pandas as pd
 data = pd.read_csv("C:\\Users\\Farzana Saif\\Downloads\\archive\\baseball.csv")
